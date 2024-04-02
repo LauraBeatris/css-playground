@@ -1,7 +1,15 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <h1>
-      Hello World
-    </h1>
+    <main>
+      <h1>CSS Playground</h1>
+
+      <ul>
+        <li>
+          <Link href="/colors">Colors</Link>
+        </li>
+      </ul>
+    </main>
   );
 }
